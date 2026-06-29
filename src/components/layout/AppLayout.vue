@@ -75,6 +75,10 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
+import {
+  DataBoard, User, Setting, Tools, Edit,
+  Calendar, Coin, Operation, Document, FolderOpened
+} from '@element-plus/icons-vue'
 
 const route = useRoute()
 const activeMenu = computed(() => route.path)
